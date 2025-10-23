@@ -4,11 +4,6 @@
 - [ ] Write up rest of answers
 - [ ] Clean up graphs (have annotations appear on opposite side of point alternating fashion)
 
-### Notes
-
-used Docker container to run microsoft's diskann
-
-
 ## HNSW vs. LSH
 
 efSearch decreases QPS dramatically while offering modest gains in recall. In particular, adjusting efSearch from 10 to 200 leads to about a 30x decrease in QPS but a 0.15 increase in recall. 
